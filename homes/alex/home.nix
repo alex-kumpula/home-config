@@ -1,0 +1,101 @@
+# This is your home-manager configuration file
+# Use this to configure your home environment (it replaces ~/.config/nixpkgs/home.nix)
+{
+  inputs,
+  outputs,
+  lib,
+  config,
+  pkgs,
+  ...
+}: {
+  # You can import other home-manager modules here
+  imports = [
+    # If you want to use modules your own flake exports (from modules/home-manager):
+    # outputs.homeManagerModules.example
+
+    (outputs.homeManagerModules.git {
+      inherit pkgs;
+      gitUserName = "Alex Kumpula";
+      gitUserEmail = "alex.kumpula01@gmail.com";
+    })
+    outputs.homeManagerModules.zsh
+    outputs.homeManagerModules.steam
+    outputs.homeManagerModules.swaybg
+    outputs.homeManagerModules.waybar
+    outputs.homeManagerModules.fuzzel
+    outputs.homeManagerModules.pavucontrol
+    outputs.homeManagerModules.discord
+    outputs.homeManagerModules.vscode-fsh
+    outputs.homeManagerModules.unityhub
+    outputs.homeManagerModules.godot
+    outputs.homeManagerModules.eww
+
+    outputs.homeManagerModules.firefox
+
+    outputs.dotfilesModules.niri
+    outputs.dotfilesModules.waybar
+    outputs.dotfilesModules.eww
+
+    # Or modules exported from other flakes (such as nix-colors):
+    # inputs.nix-colors.homeManagerModules.default
+
+    # You can also split up your configuration and import pieces of it here:
+    # ./nvim.nix
+  ];
+
+  alexModules = {
+    programs.firefox = {
+      enable = true;
+      package = pkgs.firefox;
+      profiles = {
+        default = {
+          name = "Alex";
+          settings = {
+            "browser.startup.homepage" = "https://www.google.com";
+            "browser.startup.page" = 1; # 1 means homepage
+          };
+        };
+      };
+    };
+  };
+
+  nixpkgs = {
+    # You can add overlays here
+    overlays = [
+      # Add overlays your own flake exports (from overlays and pkgs dir):
+      outputs.overlays.additions
+      outputs.overlays.modifications
+      outputs.overlays.unstable-packages
+
+      # You can also add overlays exported from other flakes:
+      # neovim-nightly-overlay.overlays.default
+
+      # Or define it inline, for example:
+      # (final: prev: {
+      #   hi = final.hello.overrideAttrs (oldAttrs: {
+      #     patches = [ ./change-hello-to-hi.patch ];
+      #   });
+      # })
+    ];
+    # Configure your nixpkgs instance
+    config = {
+      # Disable if you don't want unfree packages
+      allowUnfree = true;
+    };
+  };
+
+  # TODO - DONE: Set your username
+  home = {
+    username = "alex";
+    homeDirectory = "/home/alex";
+  };
+
+  # Enable home-manager to install and manage itself
+  programs.home-manager.enable = true;
+
+  # Nicely reload system units when changing configs
+  systemd.user.startServices = "sd-switch";
+
+  # https://nixos.wiki/wiki/FAQ/When_do_I_update_stateVersion
+  home.stateVersion = "23.05";
+}
