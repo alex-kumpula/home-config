@@ -15,12 +15,12 @@
 
   config = lib.mkIf config.alex-desktop.niri.enable {
     home.file.".config/niri" = {
-      source = ./dotfiles;
+      source = ./niri;
       recursive = true; # link recursively
     };
 
-    home.file.".config/niri/wallpaper-main.png" = {
-      source = config.alex-desktop.niri.wallpaperPath;
+    home.file.".config/wallpapers" = {
+      source = ./wallpapers;
       recursive = true; # link recursively
     };
   };
