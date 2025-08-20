@@ -48,7 +48,7 @@
       enable = true;
       package = pkgs.firefox;
       profiles = {
-        default = {
+        alex = {
           name = "Alex";
           settings = {
             "browser.startup.homepage" = "https://www.google.com";
