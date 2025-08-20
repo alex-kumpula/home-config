@@ -1,4 +1,4 @@
 {
   alex-desktop = import ./alex-desktop;
-  applications = import ./aplications;
+  applications = import ./applications;
 }
