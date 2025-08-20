@@ -43,21 +43,21 @@
     # ./nvim.nix
   ];
 
-  alexModules = {
-    programs.firefox = {
-      enable = true;
-      package = pkgs.firefox;
-      profiles = {
-        default = {
-          name = "Alex";
-          settings = {
-            "browser.startup.homepage" = "https://www.google.com";
-            "browser.startup.page" = 1; # 1 means homepage
-          };
-        };
-      };
-    };
-  };
+  # alexModules = {
+  #   programs.firefox = {
+  #     enable = true;
+  #     package = pkgs.firefox;
+  #     profiles = {
+  #       default = {
+  #         name = "Alex";
+  #         settings = {
+  #           "browser.startup.homepage" = "https://www.google.com";
+  #           "browser.startup.page" = 1; # 1 means homepage
+  #         };
+  #       };
+  #     };
+  #   };
+  # };
 
   nixpkgs = {
     # You can add overlays here
