@@ -1,6 +1,6 @@
 { pkgs, ... }:
 {
-  home.packages = with pkgs; [
-    firefox
-  ];
+  home.programs.firefox = {
+    enable = true;
+  };
 }
