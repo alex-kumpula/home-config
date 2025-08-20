@@ -17,4 +17,5 @@
   unityhub = import ./unityhub.nix;
   godot = import ./godot.nix;
   firefox = import ./firefox.nix;
+  alex-desktop = import ./alex-desktop;
 }

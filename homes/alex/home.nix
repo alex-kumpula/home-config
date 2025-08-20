@@ -20,7 +20,7 @@
     })
     outputs.homeManagerModules.zsh
     outputs.homeManagerModules.steam
-    outputs.homeManagerModules.swaybg
+    # outputs.homeManagerModules.swaybg
     outputs.homeManagerModules.waybar
     outputs.homeManagerModules.fuzzel
     outputs.homeManagerModules.pavucontrol
@@ -32,9 +32,11 @@
 
     outputs.homeManagerModules.firefox
 
-    outputs.dotfilesModules.niri
+    # outputs.dotfilesModules.niri
     outputs.dotfilesModules.waybar
     outputs.dotfilesModules.eww
+
+    outputs.homeManagerModules.alex-desktop
 
     # Or modules exported from other flakes (such as nix-colors):
     # inputs.nix-colors.homeManagerModules.default
@@ -43,21 +45,21 @@
     # ./nvim.nix
   ];
 
-  alexModules = {
-    programs.firefox = {
-      enable = true;
-      package = pkgs.firefox;
-      profiles = {
-        alex = {
-          name = "Alex";
-          settings = {
-            "browser.startup.homepage" = "https://www.google.com";
-            "browser.startup.page" = 1; # 1 means homepage
-          };
-        };
-      };
-    };
-  };
+  # alexModules = {
+  #   programs.firefox = {
+  #     enable = true;
+  #     package = pkgs.firefox;
+  #     profiles = {
+  #       alex = {
+  #         name = "Alex";
+  #         settings = {
+  #           "browser.startup.homepage" = "https://www.google.com";
+  #           "browser.startup.page" = 1; # 1 means homepage
+  #         };
+  #       };
+  #     };
+  #   };
+  # };
 
   nixpkgs = {
     # You can add overlays here
