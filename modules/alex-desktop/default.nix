@@ -3,6 +3,11 @@
   imports = [
     ./niri
     ./wallpaper
+    ./eww
+    ./fuzzel
+    ./swaybg
+    ./waybar
+    ./pavucontrol
   ];
 
   home.packages = with pkgs; [

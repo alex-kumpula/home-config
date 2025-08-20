@@ -1,7 +1,11 @@
 { ... }:
 {
+  programs.waybar = {
+    enable = true;
+  };
+
   home.file.".config/waybar" = {
-    source = ./waybar;
+    source = ./dotfiles;
     recursive = true; # link recursively
   };
 }

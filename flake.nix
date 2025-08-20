@@ -36,9 +36,6 @@
     # These are usually stuff you would upstream into home-manager
     homeManagerModules = import ./modules;
 
-    # Reusable dotfiles modules you might want to export
-    dotfilesModules = import ./dotfiles;
-
     # Standalone home-manager configuration entrypoint
     # Available through 'home-manager --flake .#your-username@your-hostname'
     homeConfigurations = {

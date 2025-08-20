@@ -18,25 +18,9 @@
       gitUserName = "Alex Kumpula";
       gitUserEmail = "alex.kumpula01@gmail.com";
     })
-    outputs.homeManagerModules.zsh
-    outputs.homeManagerModules.steam
-    # outputs.homeManagerModules.swaybg
-    outputs.homeManagerModules.waybar
-    outputs.homeManagerModules.fuzzel
-    outputs.homeManagerModules.pavucontrol
-    outputs.homeManagerModules.discord
-    outputs.homeManagerModules.vscode-fsh
-    outputs.homeManagerModules.unityhub
-    outputs.homeManagerModules.godot
-    outputs.homeManagerModules.eww
-
-    outputs.homeManagerModules.firefox
-
-    # outputs.dotfilesModules.niri
-    outputs.dotfilesModules.waybar
-    outputs.dotfilesModules.eww
-
+    
     outputs.homeManagerModules.alex-desktop
+    outputs.homeManagerModules.applications
 
     # Or modules exported from other flakes (such as nix-colors):
     # inputs.nix-colors.homeManagerModules.default
