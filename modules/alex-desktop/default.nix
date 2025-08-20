@@ -9,5 +9,10 @@
     swaybg
   ];
 
-  alex-desktop.niri.wallpaperPath = config.alex-desktop.wallpaper;
+  alex-desktop = {
+    niri = {
+      enable = true;
+      wallpaperPath = config.alex-desktop.wallpaper;
+    };
+  };
 }
