@@ -13,12 +13,6 @@
     # If you want to use modules your own flake exports (from modules/home-manager):
     # outputs.homeManagerModules.example
 
-    (outputs.homeManagerModules.git {
-      inherit pkgs;
-      gitUserName = "Alex Kumpula";
-      gitUserEmail = "alex.kumpula01@gmail.com";
-    })
-    
     outputs.homeManagerModules.alex-desktop
     outputs.homeManagerModules.applications
 
@@ -28,23 +22,7 @@
     # You can also split up your configuration and import pieces of it here:
     # ./nvim.nix
   ];
-
-  # alexModules = {
-  #   programs.firefox = {
-  #     enable = true;
-  #     package = pkgs.firefox;
-  #     profiles = {
-  #       alex = {
-  #         name = "Alex";
-  #         settings = {
-  #           "browser.startup.homepage" = "https://www.google.com";
-  #           "browser.startup.page" = 1; # 1 means homepage
-  #         };
-  #       };
-  #     };
-  #   };
-  # };
-
+  
   nixpkgs = {
     # You can add overlays here
     overlays = [
