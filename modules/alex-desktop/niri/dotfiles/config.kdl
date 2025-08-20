@@ -102,12 +102,21 @@ input {
     position x=1280 y=0
 }
 
+overview {
+    workspace-shadow {
+        spread 0
+        color "#00000000"
+    }
+}
+
 // Settings that influence how windows are positioned and sized.
 // Find more information on the wiki:
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Layout
 layout {
     // Set gaps around windows in logical pixels.
     gaps 32
+
+    background-color "transparent"
 
     // When to center a column when changing focus, options are:
     // - "never", default behavior, focusing an off-screen column will keep at the left
@@ -270,7 +279,7 @@ spawn-at-startup "sh" "-c" "swaybg -m fill -i \"$HOME/.config/niri/wallpaper-mai
 // Put swaybg inside the overview backdrop.
 
 // The following moves swaybg to the overview background
-/-layer-rule {
+layer-rule {
     match namespace="^wallpaper$"
     place-within-backdrop true
 }
