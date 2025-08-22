@@ -9,4 +9,8 @@
     userName = "Alex Kumpula";
     userEmail = "alex.kumpula01@gmail.com";
   };
+
+  programs.gh = {
+    enable = true;
+  };
 }
