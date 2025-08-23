@@ -8,5 +8,6 @@
     ./firefox.nix
     ./git.nix
     ./zsh.nix
+    ./python.nix
   ];
 }
