@@ -23,5 +23,17 @@
       source = config.alex-desktop.niri.wallpaperPath;
       recursive = true; # link recursively
     };
+
+    environment.variables = {
+      XCURSOR_SIZE = "32"; # Set your desired cursor size
+      XCURSOR_THEME = "Adwaita"; # Set your desired cursor theme
+    };
+
+    home.pointerCursor = {
+      enable = true;
+      package = pkgs.gnome.adwaita-icon-theme;
+      name = "Adwaita";
+      size = 32;
+    };
   };
 }
