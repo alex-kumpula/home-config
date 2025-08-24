@@ -24,7 +24,7 @@
       recursive = true; # link recursively
     };
 
-    environment.variables = {
+    home.sessionVariables = {
       XCURSOR_SIZE = "32"; # Set your desired cursor size
       XCURSOR_THEME = "Adwaita"; # Set your desired cursor theme
     };
