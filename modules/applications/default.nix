@@ -9,9 +9,9 @@
     ./git.nix
     ./zsh.nix
     ./python.nix
-    ./keymapper.nix
-    ./input-remapper.nix
-    ./xremap.nix
+    # ./keymapper.nix
+    # ./input-remapper.nix
+    # ./xremap.nix
     ./protonplus.nix
   ];
 }
