@@ -2,6 +2,8 @@
 {
   home.packages = with pkgs; [
     steam
+    gamescope
+    gamemode
   ];
 
   # Fixes weird issues with drop-down menus being offset in the wrong spot
