@@ -10,5 +10,6 @@
     ./zsh.nix
     ./python.nix
     ./keymapper.nix
+    ./input-remapper.nix
   ];
 }
