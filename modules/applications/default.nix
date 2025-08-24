@@ -12,5 +12,6 @@
     ./keymapper.nix
     ./input-remapper.nix
     ./xremap.nix
+    ./protonplus.nix
   ];
 }
