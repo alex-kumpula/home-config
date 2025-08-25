@@ -13,5 +13,6 @@
     # ./input-remapper.nix
     # ./xremap.nix
     ./protonplus.nix
+    ./dotnet-sdk.nix
   ];
 }
