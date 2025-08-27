@@ -14,6 +14,7 @@
   outputs = {
     self,
     nixpkgs,
+    nixpkgs-unstable,
     home-manager,
     ...
   } @ inputs: let
@@ -27,6 +28,41 @@
       "aarch64-darwin"
       "x86_64-darwin"
     ];
+
+    mySpecialArgs = {
+      inherit inputs outputs;
+      # To use packages from nixpkgs-unstable,
+      # we configure some parameters for it first
+      #pkgs-stable = import nixpkgs-stable {
+      # Refer to the `system` parameter from
+      # the outer scope recursively
+      #  inherit inputs;
+      #  system = "x86_64-linux";
+      #  config.allowUnfree = true;
+      #};
+
+      #pkgs-last-stable = import nixpkgs-last-stable {
+      # Refer to the `system` parameter from
+      # the outer scope recursively
+      #  inherit inputs;
+      #  system = "x86_64-linux";
+      #  config.allowUnfree = true;
+      #};
+
+      pkgs-unstable = import nixpkgs-unstable {
+        # Refer to the `system` parameter from
+        # the outer scope recursively
+        inherit inputs;
+        system = "x86_64-linux";
+        config.allowUnfree = true;
+      };
+
+      #pkgs-pinned = import nixpkgs-pinned {
+      #  inherit inputs;
+      #  system = "x86_64-linux";
+      #  config.allowUnfree = true;
+      #};
+    };
 
   in {
     # Your custom packages and modifications, exported as overlays
@@ -42,7 +78,7 @@
       # FIXME - DONE replace with your username@hostname
       "alex" = home-manager.lib.homeManagerConfiguration {
         pkgs = nixpkgs.legacyPackages.x86_64-linux; # Home-manager requires 'pkgs' instance
-        extraSpecialArgs = {inherit inputs outputs;};
+        extraSpecialArgs = mySpecialArgs;
         modules = [
           # > Our main home-manager configuration file <
           ./homes/alex/home.nix
