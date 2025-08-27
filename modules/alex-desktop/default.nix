@@ -8,10 +8,7 @@
     ./swaybg
     ./waybar
     ./pavucontrol
-  ];
-
-  home.packages = with pkgs; [
-    swaybg
+    ./quickshell
   ];
 
   alex-desktop = {
