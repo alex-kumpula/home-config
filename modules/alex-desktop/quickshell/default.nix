@@ -1,8 +1,8 @@
 { config, ... }:
 {
-  programs.quickshell = {
-    enable = true;
-  };
+  home.packages = with pkgs; [
+    quickshell
+  ];
 
   home.file.".config/quickshell" = {
     source = ./dotfiles;
