@@ -1,6 +1,6 @@
 { ... }:
 {
-  programs.quickshell = {
+  home.programs.quickshell = {
     enable = true;
   };
 
