@@ -15,5 +15,6 @@
     ./protonplus.nix
     ./dotnet-sdk.nix
     ./clonehero.nix
+    ./blueman.nix # Bluetooth
   ];
 }
