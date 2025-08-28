@@ -19,6 +19,10 @@
       recursive = true; # link recursively
     };
 
+    home.sessionVariables = {
+      DISPLAY = ":12"; # For xwayland-satellite (see config.kdl)
+    };
+
     home.file.".config/niri/wallpaper-main.png" = {
       source = config.alex-desktop.niri.wallpaperPath;
       recursive = true; # link recursively
