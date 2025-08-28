@@ -14,5 +14,6 @@
     # ./xremap.nix
     ./protonplus.nix
     ./dotnet-sdk.nix
+    ./clonehero.nix
   ];
 }
