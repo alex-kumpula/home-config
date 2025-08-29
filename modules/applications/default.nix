@@ -16,5 +16,6 @@
     ./dotnet-sdk.nix
     ./clonehero.nix
     ./blueman.nix # Bluetooth
+    ./gammaray.nix
   ];
 }
