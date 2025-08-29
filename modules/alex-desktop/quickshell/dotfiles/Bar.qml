@@ -11,6 +11,9 @@ Scope {
       required property var modelData
       screen: modelData
 
+      surfaceFormat: false
+      color: #ffffff1a
+
       anchors {
         top: true
         left: true
