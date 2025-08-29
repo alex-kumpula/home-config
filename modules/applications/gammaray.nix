@@ -7,4 +7,9 @@
     gdb
     lldb
   ];
+
+  home.file.".gdbinit".text = ''
+    set follow-fork-mode child
+    set print pretty on
+  '';
 }
