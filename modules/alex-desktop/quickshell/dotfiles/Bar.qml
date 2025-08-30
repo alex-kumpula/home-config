@@ -10,9 +10,8 @@ Scope {
     PanelWindow {
       required property var modelData
       screen: modelData
-
-      surfaceFormat: false
-      color: #ffffff1a
+      
+      color: "#ffffffff" // #8f3d3dff
 
       anchors {
         top: true

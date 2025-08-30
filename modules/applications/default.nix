@@ -17,5 +17,6 @@
     ./clonehero.nix
     ./blueman.nix # Bluetooth
     ./gammaray.nix
+    ./tauon.nix
   ];
 }
