@@ -13,6 +13,7 @@
     # ./input-remapper.nix
     # ./keymapper.nix
     ./lazygit.nix
+    ./lutris.nix
     ./picard.nix
     ./protonplus.nix
     ./python.nix
