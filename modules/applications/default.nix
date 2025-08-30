@@ -16,6 +16,7 @@
     ./picard.nix
     ./protonplus.nix
     ./python.nix
+    ./rustup.nix
     # ./steam.nix
     # ./xremap.nix
     ./tauon.nix
