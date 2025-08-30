@@ -19,5 +19,6 @@
     ./gammaray.nix
     ./tauon.nix
     ./yt-dlp.nix
+    ./beets.nix
   ];
 }
