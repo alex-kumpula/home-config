@@ -350,7 +350,7 @@ window-rule {
 
 window-rule {
     match app-id="ghostty"
-    blur true
+    # blur true # This sadly isnt a thing yet... maybe in the future
 }
 
 // Example: block out two password managers from screen capture.
