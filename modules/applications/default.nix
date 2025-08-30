@@ -21,6 +21,7 @@
     ./tauon.nix
     ./unityhub.nix
     ./vscode-fsh.nix
+    ./yazi.nix
     ./yt-dlp.nix
     ./zsh.nix
   ];
