@@ -12,6 +12,7 @@
     ./godot.nix
     # ./input-remapper.nix
     # ./keymapper.nix
+    ./lazygit.nix
     ./picard.nix
     ./protonplus.nix
     ./python.nix
