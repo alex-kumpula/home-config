@@ -43,5 +43,5 @@
 # resize-overlay-duration = 4s 200ms
 
 background-opacity = 0.65
-background-blur = true
+# background-blur = true
 window-decoration = false
