@@ -18,5 +18,6 @@
     ./blueman.nix # Bluetooth
     ./gammaray.nix
     ./tauon.nix
+    ./youtube-dl.nix
   ];
 }
