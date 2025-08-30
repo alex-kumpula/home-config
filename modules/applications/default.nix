@@ -7,7 +7,7 @@
     ./dotnet-sdk.nix
     ./firefox.nix
     ./gammaray.nix
-    ./ghostty.nix
+    ./ghostty
     ./git.nix
     ./godot.nix
     # ./input-remapper.nix
