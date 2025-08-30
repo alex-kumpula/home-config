@@ -8,7 +8,7 @@
   # and configurations installed through home.packages and nix-env.
   fonts.fontconfig.enable = true;
 
-  fonts.packages = with pkgs; [
+  home.packages = with pkgs; [
     nerd-fonts.fira-code
     nerd-fonts.droid-sans-mono
   ];
