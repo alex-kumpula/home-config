@@ -2,7 +2,7 @@
 {
   home.packages = with pkgs; [
     clang
-    llvmPackages_21.bintools
+    # llvmPackages_21.bintools
     rustup
   ];
 }
