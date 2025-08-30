@@ -5,4 +5,9 @@
   programs.ghostty = {
     enable = true;
   };
+
+  home.file.".config/ghostty" = {
+    source = ./dotfiles;
+    recursive = true; # link recursively
+  };
 }
