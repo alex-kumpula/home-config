@@ -1,25 +1,26 @@
 {
   imports = [
-    # ./steam.nix
-    ./discord.nix
-    ./vscode-fsh.nix
-    ./unityhub.nix
-    ./godot.nix
-    ./firefox.nix
-    ./git.nix
-    ./zsh.nix
-    ./python.nix
-    # ./keymapper.nix
-    # ./input-remapper.nix
-    # ./xremap.nix
-    ./protonplus.nix
-    ./dotnet-sdk.nix
-    ./clonehero.nix
-    ./blueman.nix # Bluetooth
-    ./gammaray.nix
-    ./tauon.nix
-    ./yt-dlp.nix
     ./beets.nix
+    ./blueman.nix # Bluetooth
+    ./clonehero.nix
+    ./discord.nix
+    ./dotnet-sdk.nix
+    ./firefox.nix
+    ./gammaray.nix
+    ./ghostty.nix
+    ./git.nix
+    ./godot.nix
+    # ./input-remapper.nix
+    # ./keymapper.nix
     ./picard.nix
+    ./protonplus.nix
+    ./python.nix
+    # ./steam.nix
+    # ./xremap.nix
+    ./tauon.nix
+    ./unityhub.nix
+    ./vscode-fsh.nix
+    ./yt-dlp.nix
+    ./zsh.nix
   ];
 }
