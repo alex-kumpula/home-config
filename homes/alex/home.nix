@@ -15,6 +15,7 @@
 
     outputs.homeManagerModules.alex-desktop
     outputs.homeManagerModules.applications
+    outputs.homeManagerModules.fonts
 
     # Or modules exported from other flakes (such as nix-colors):
     # inputs.nix-colors.homeManagerModules.default
