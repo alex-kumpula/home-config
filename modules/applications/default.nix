@@ -20,5 +20,6 @@
     ./tauon.nix
     ./yt-dlp.nix
     ./beets.nix
+    ./picard.nix
   ];
 }
