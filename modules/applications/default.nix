@@ -14,6 +14,7 @@
     # ./keymapper.nix
     ./lazygit.nix
     ./lutris.nix
+    ./obsidian.nix
     ./picard.nix
     ./protonplus.nix
     ./python.nix
