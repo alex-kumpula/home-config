@@ -10,19 +10,19 @@
     recursive = true; # link recursively
   };
 
-  systemd.user.services.xremap = {
-    Unit = {
-      Description = "xremap key remapper";
-      After = [ "graphical-session.target" ];
-    };
+#   systemd.user.services.xremap = {
+#     Unit = {
+#       Description = "xremap key remapper";
+#       After = [ "graphical-session.target" ];
+#     };
 
-    Service = {
-      ExecStart = "${pkgs.xremap}/bin/xremap --watch ~/.config/xremap/config.yml";
-      Restart = "always";
-    };
+#     Service = {
+#       ExecStart = "${pkgs.xremap}/bin/xremap --watch ~/.config/xremap/config.yml";
+#       Restart = "always";
+#     };
 
-    Install = {
-      WantedBy = [ "default.target" ];
-    };
-  };
+#     Install = {
+#       WantedBy = [ "default.target" ];
+#     };
+#   };
 }
