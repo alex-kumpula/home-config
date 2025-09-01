@@ -18,6 +18,7 @@
     ./picard.nix
     ./protonplus.nix
     ./python.nix
+    ./rclone.nix
     ./rustup.nix
     # ./steam.nix
     # ./xremap.nix
