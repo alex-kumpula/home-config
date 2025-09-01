@@ -1,5 +1,6 @@
 {
   imports = [
+    ./bash
     ./beets.nix
     ./blueman.nix # Bluetooth
     ./clonehero.nix
