@@ -2,4 +2,4 @@ keymap:
   - name: GuiltyGear # Optional
     remap: # Required
       # Key press -> Key press
-      KEY_102ND: KEY_BACKSLASH
+      KEY_102ND: KEY_DOT
