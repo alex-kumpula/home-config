@@ -1,7 +1,5 @@
-modmap:
-  - name: Space as Shift
-    remap:
-      KEY_102ND:
-        held: Shift_L
-        alone: Space
-        free_hold: true
+keymap:
+  - name: GuiltyGear # Optional
+    remap: # Required
+      # Key press -> Key press
+      KEY_102ND: KEY_BACKSLASH
