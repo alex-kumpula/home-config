@@ -21,7 +21,7 @@
     ./rclone.nix
     ./rustup.nix
     # ./steam.nix
-    ./xremap.nix
+    ./xremap
     ./tauon.nix
     ./unityhub.nix
     ./vscode-fsh.nix

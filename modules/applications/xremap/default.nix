@@ -5,6 +5,11 @@
     pkgs.xremap
   ];
 
+  home.file.".config/xremap" = {
+    source = ./dotfiles;
+    recursive = true; # link recursively
+  };
+
   systemd.user.services.xremap = {
     Unit = {
       Description = "xremap key remapper";
