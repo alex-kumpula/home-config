@@ -1,7 +1,7 @@
 modmap:
   - name: Space as Shift
     remap:
-      Space:
+      KEY_102ND:
         held: Shift_L
         alone: Space
         free_hold: true
