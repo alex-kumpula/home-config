@@ -1,5 +1,6 @@
 {
   imports = [
+    ./android-studio.nix
     ./bash
     ./beets.nix
     ./blueman.nix # Bluetooth
