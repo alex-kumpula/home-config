@@ -29,6 +29,6 @@
     ./vscode-fsh.nix
     ./yazi.nix
     ./yt-dlp.nix
-    ./zsh.nix
+    ./zsh
   ];
 }
