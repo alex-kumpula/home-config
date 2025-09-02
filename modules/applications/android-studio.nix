@@ -1,7 +1,7 @@
 { pkgs, ... }:
 {
   home.packages = with pkgs; [
-    android-studio-full
+    android-studio
   ];
 
   nixpkgs.config = {
