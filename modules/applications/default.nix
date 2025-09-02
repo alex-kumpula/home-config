@@ -11,6 +11,7 @@
     ./ghostty
     ./git.nix
     ./godot.nix
+    ./google-chrome
     # ./input-remapper.nix
     # ./keymapper.nix
     ./lazygit.nix
