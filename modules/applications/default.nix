@@ -24,6 +24,7 @@
     ./rclone.nix
     ./rustup.nix
     # ./steam.nix
+    ./transmission.nix
     ./xremap
     ./tauon.nix
     ./unityhub.nix
