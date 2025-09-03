@@ -1,7 +1,7 @@
-{ pkgs, ... }:
+{ pkgs, pkgs-unstable, ... }:
 {
-  home.packages = with pkgs; [
-    android-studio
+  home.packages = with pkgs-unstable; [
+    androidStudioPackages.beta
   ];
 
   nixpkgs.config = {
