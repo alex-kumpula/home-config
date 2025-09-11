@@ -10,6 +10,7 @@
     ./firefox.nix
     ./gammaray.nix
     ./ghostty
+    ./gcolor3.nix
     ./git.nix
     ./godot.nix
     ./google-chrome
