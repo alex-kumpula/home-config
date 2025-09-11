@@ -31,6 +31,7 @@
     ./vscode-fsh.nix
     ./yazi.nix
     ./yt-dlp.nix
+    ./zoom.nix
     # ./zsh
   ];
 }
