@@ -28,6 +28,7 @@
     ./transmission.nix
     ./xremap
     ./tauon.nix
+    ./tor.nix
     ./unityhub.nix
     ./vscode-fsh.nix
     ./yazi.nix
