@@ -4,6 +4,7 @@
     ./bash
     ./beets.nix
     ./blueman.nix # Bluetooth
+    ./bottles.nix
     ./clonehero.nix
     ./discord.nix
     ./dotnet-sdk.nix
