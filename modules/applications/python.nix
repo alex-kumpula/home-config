@@ -7,11 +7,25 @@
     # python3Packages.virtualenvwrapper
 
 
-    (python311.withPackages (ps: with ps; [
-      numpy # these two are
-      scipy # probably redundant to pandas
-      jupyterlab
+    # (python311.withPackages (ps: with ps; [
+    #   numpy # these two are
+    #   scipy # probably redundant to pandas
+    #   jupyterlab
+    #   pandas
+    #   statsmodels
+    #   scikitlearn
+    # ]))
+
+    (pkgs.python3.withPackages (python-pkgs: with python-pkgs; [
+      # select Python packages here
+      pip
       pandas
+      requests
+      numpy
+      matplotlib
+      scipy
+      jupyterlab
+      jupyternotebook
       statsmodels
       scikitlearn
     ]))
