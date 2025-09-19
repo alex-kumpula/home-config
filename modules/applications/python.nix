@@ -28,6 +28,8 @@
       jupyter
       statsmodels
       scikitlearn
+      torch
+      torchvision
     ]))
   ];
 }
