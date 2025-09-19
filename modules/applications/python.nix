@@ -31,7 +31,7 @@
 
       # CUDA-enabled PyTorch
       pytorch-bin
-      torchvision
+      # torchvision
 
       # torch
       # torchvision
