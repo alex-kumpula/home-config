@@ -28,8 +28,13 @@
       jupyter
       statsmodels
       scikitlearn
-      torch
+
+      # CUDA-enabled PyTorch
+      pytorch-bin
       torchvision
+
+      # torch
+      # torchvision
     ]))
   ];
 }
