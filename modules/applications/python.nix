@@ -25,7 +25,7 @@
       matplotlib
       scipy
       jupyterlab
-      jupyternotebook
+      jupyter
       statsmodels
       scikitlearn
     ]))
