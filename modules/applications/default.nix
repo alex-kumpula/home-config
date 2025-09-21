@@ -12,6 +12,7 @@
     ./gammaray.nix
     ./ghostty
     ./gcolor3.nix
+    ./gimp.nix
     ./git.nix
     ./godot.nix
     ./google-chrome
