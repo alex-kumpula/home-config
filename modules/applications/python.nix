@@ -28,6 +28,7 @@
       jupyter
       statsmodels
       scikitlearn
+      tqdm
 
       # CUDA-enabled PyTorch
       pytorch-bin
