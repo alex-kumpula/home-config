@@ -20,6 +20,7 @@
     # ./keymapper.nix
     ./lazygit.nix
     ./lutris.nix
+    ./obs-studio.nix
     ./obsidian.nix
     ./picard.nix
     ./protonplus.nix
