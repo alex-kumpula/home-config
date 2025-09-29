@@ -14,6 +14,7 @@
     ./gcolor3.nix
     ./gimp.nix
     ./git.nix
+    ./github-desktop.nix
     ./godot.nix
     ./google-chrome
     # ./input-remapper.nix
