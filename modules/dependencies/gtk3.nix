@@ -3,6 +3,10 @@
   gtk = {
     enable = true;
   };
+
+  home.packages = with pkgs; [
+    gsettings-desktop-schemas
+  ];
 }
 
 
