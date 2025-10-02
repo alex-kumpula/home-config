@@ -1,6 +1,6 @@
 { pkgs, ... }:
 {
-  gtk.gtk3 = {
+  gtk = {
     enable = true;
   };
 }
