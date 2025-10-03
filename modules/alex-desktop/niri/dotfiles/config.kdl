@@ -403,7 +403,7 @@ binds {
 
     // Start files
     Mod+E { spawn "nautilus" "-w"; }
-    Mod+H { spawn "systemctl" "hibernate"; }
+    Mod+Ctrl+Plus { spawn "systemctl" "hibernate"; }
    
     // Example volume keys mappings for PipeWire & WirePlumber.
     // The allow-when-locked=true property makes them work even when the session is locked.
@@ -413,7 +413,7 @@ binds {
     XF86AudioMicMute     allow-when-locked=true { spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SOURCE@" "toggle"; }
 
     // Open/close the Overview: a zoomed-out view of workspaces and windows.
-    // You can also move the mouse into the top-left hot corner,
+    // Yhiberou can also move the mouse into the top-left hot corner,
     // or do a four-finger swipe up on a touchpad.
     Mod+O repeat=false { toggle-overview; }
     Mod+Tab repeat=false { toggle-overview; }
