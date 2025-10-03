@@ -403,7 +403,7 @@ binds {
 
     // Start files
     Mod+E { spawn "nautilus" "-w"; }
-    Mod+Ctrl+Plus { spawn "systemctl" "hibernate"; }
+    Mod+Ctrl+H { spawn "systemctl" "hibernate"; }
    
     // Example volume keys mappings for PipeWire & WirePlumber.
     // The allow-when-locked=true property makes them work even when the session is locked.
@@ -433,7 +433,7 @@ binds {
     Mod+Ctrl+Down  { move-window-down; }
     Mod+Ctrl+Up    { move-window-up; }
     Mod+Ctrl+Right { move-column-right; }
-    Mod+Ctrl+H     { move-column-left; }
+    // Mod+Ctrl+H     { move-column-left; }
     Mod+Ctrl+J     { move-window-down; }
     Mod+Ctrl+K     { move-window-up; }
     Mod+Ctrl+L     { move-column-right; }
