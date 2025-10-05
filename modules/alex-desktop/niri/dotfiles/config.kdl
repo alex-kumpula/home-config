@@ -420,6 +420,35 @@ binds {
 
     Mod+Q { close-window; }
 
+
+    Mod+X { set-dynamic-cast-window; }
+    Mod+Shift+X { set-dynamic-cast-monitor; }
+    Mod+Ctrl+X { clear-dynamic-cast-target; }
+    
+    // Indicate screencasted windows with red colors.
+    window-rule {
+        match is-window-cast-target=true
+
+        focus-ring {
+            active-color "#f38ba8"
+            inactive-color "#7d0d2d"
+        }
+
+        border {
+            inactive-color "#7d0d2d"
+        }
+
+        shadow {
+            color "#7d0d2d70"
+        }
+
+        tab-indicator {
+            active-color "#f38ba8"
+            inactive-color "#7d0d2d"
+        }
+    }
+
+
     Mod+Left  { focus-column-left; }
     Mod+Down  { focus-window-down; }
     Mod+Up    { focus-window-up; }
