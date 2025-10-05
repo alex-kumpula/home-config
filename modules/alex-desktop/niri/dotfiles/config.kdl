@@ -364,6 +364,9 @@ window-rule {
     }
 
     border {
+        on
+        width 4
+        active-color "#7d0d2d"
         inactive-color "#7d0d2d"
     }
 
