@@ -354,6 +354,29 @@ window-rule {
     // blur true # This sadly isnt a thing yet... maybe in the future
 }
 
+// Indicate screencasted windows with red colors.
+window-rule {
+    match is-window-cast-target=true
+
+    focus-ring {
+        active-color "#f38ba8"
+        inactive-color "#7d0d2d"
+    }
+
+    border {
+        inactive-color "#7d0d2d"
+    }
+
+    shadow {
+        color "#7d0d2d70"
+    }
+
+    tab-indicator {
+        active-color "#f38ba8"
+        inactive-color "#7d0d2d"
+    }
+}
+
 // Example: block out two password managers from screen capture.
 // (This example rule is commented out with a "/-" in front.)
 /-window-rule {
@@ -425,28 +448,6 @@ binds {
     Mod+Shift+X { set-dynamic-cast-monitor; }
     Mod+Ctrl+X { clear-dynamic-cast-target; }
     
-    // Indicate screencasted windows with red colors.
-    window-rule {
-        match is-window-cast-target=true
-
-        focus-ring {
-            active-color "#f38ba8"
-            inactive-color "#7d0d2d"
-        }
-
-        border {
-            inactive-color "#7d0d2d"
-        }
-
-        shadow {
-            color "#7d0d2d70"
-        }
-
-        tab-indicator {
-            active-color "#f38ba8"
-            inactive-color "#7d0d2d"
-        }
-    }
 
 
     Mod+Left  { focus-column-left; }
