@@ -385,6 +385,7 @@ window-rule {
 
     focus-ring {
         on
+        width 4
         active-color "#f38ba8"
         inactive-color "#7d0d2d"
     }
