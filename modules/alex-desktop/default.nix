@@ -6,6 +6,7 @@
     ./eww
     ./fuzzel
     ./swaybg
+    ./mpvpaper
     ./waybar
     ./waypaper
     ./pavucontrol
