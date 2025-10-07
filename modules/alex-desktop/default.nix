@@ -7,6 +7,7 @@
     ./fuzzel
     ./swaybg
     ./waybar
+    ./waypaper
     ./pavucontrol
     ./quickshell
   ];
