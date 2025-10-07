@@ -11,6 +11,7 @@
     ./waypaper
     ./pavucontrol
     ./quickshell
+    ./swww
   ];
 
   alex-desktop = {
