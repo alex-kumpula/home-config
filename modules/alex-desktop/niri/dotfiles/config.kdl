@@ -281,7 +281,7 @@ spawn-at-startup "waypaper" "--restore"
 
 // The following moves swaybg to the overview background
 layer-rule {
-    match namespace="^wallpaper$"
+    match namespace="^mpvpaper$"
     place-within-backdrop true
 }
 
