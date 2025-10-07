@@ -275,13 +275,13 @@ environment {
 }
 
 // background
-// spawn-at-startup "sh" "-c" "swaybg -m fill -i \"$HOME/.config/niri/wallpaper-main.png\""
-spawn-at-startup "waypaper" "--restore"
+spawn-at-startup "sh" "-c" "swaybg -m fill -i \"$HOME/.config/niri/wallpaper-main.png\""
+// spawn-at-startup "waypaper" "--restore"
 // Put swaybg inside the overview backdrop.
 
 // The following moves swaybg to the overview background
 layer-rule {
-    match namespace="^mpvpaper$"
+    match namespace="^background$"
     place-within-backdrop true
 }
 
