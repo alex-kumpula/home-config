@@ -1,6 +1,6 @@
 { ... }:
 {
-  programs.swww = {
+  services.swww = {
     enable = true;
   };
 }
