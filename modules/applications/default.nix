@@ -39,6 +39,6 @@
     ./yazi.nix
     ./yt-dlp.nix
     ./zoom.nix
-    # ./zsh
+    ./zsh
   ];
 }
