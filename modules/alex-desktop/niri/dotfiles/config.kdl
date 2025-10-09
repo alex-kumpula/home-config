@@ -282,6 +282,7 @@ spawn-at-startup "sh" "-c" "swaybg -m fill -i \"$HOME/.config/niri/wallpaper-mai
 // The following moves swaybg to the overview background
 layer-rule {
     match namespace="^background$"
+    match namespace="^swww-daemon$"
     place-within-backdrop true
 }
 
