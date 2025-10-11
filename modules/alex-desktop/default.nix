@@ -12,6 +12,8 @@
     ./pavucontrol
     ./quickshell
     ./swww
+    ./brightnessctl
+    ./mako
   ];
 
   alex-desktop = {
