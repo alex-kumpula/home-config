@@ -286,6 +286,14 @@ layer-rule {
     place-within-backdrop true
 }
 
+// The following hides notifications from screencast
+layer-rule {
+    match namespace="^notifications$"
+    block-out-from "screencast"
+    opacity 0.65
+    geometry-corner-radius 12
+}
+
 // polkit (permissions dialog)
 spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
 
