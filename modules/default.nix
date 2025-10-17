@@ -3,4 +3,5 @@
   applications = import ./applications;
   fonts = import ./fonts;
   dependencies = import ./dependencies;
+  scripts = import ./scripts;
 }

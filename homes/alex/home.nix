@@ -17,6 +17,7 @@
     outputs.homeManagerModules.applications
     outputs.homeManagerModules.fonts
     outputs.homeManagerModules.dependencies
+    outputs.homeManagerModules.scripts
 
     # Or modules exported from other flakes (such as nix-colors):
     # inputs.nix-colors.homeManagerModules.default
