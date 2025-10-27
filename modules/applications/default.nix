@@ -25,7 +25,7 @@
     ./obsidian.nix
     ./picard.nix
     ./protonplus.nix
-    ./python.nix
+    # ./python.nix
     ./rclone.nix
     ./renpy.nix
     ./rustup.nix

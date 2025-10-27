@@ -4,4 +4,5 @@
   fonts = import ./fonts;
   dependencies = import ./dependencies;
   scripts = import ./scripts;
+  bootstrap = import ./bootstrap;
 }
