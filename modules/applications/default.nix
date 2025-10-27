@@ -27,7 +27,7 @@
     ./protonplus.nix
     # ./python.nix
     ./rclone.nix
-    ./renpy.nix
+    # ./renpy.nix
     ./rustup.nix
     # ./steam.nix
     ./transmission.nix
