@@ -75,11 +75,6 @@
         config.allowUnfree = true;
       };
 
-      affinity-nix = import affinity-nix {
-        inherit inputs;
-        system = "x86_64-linux";
-      };
-
       #pkgs-pinned = import nixpkgs-pinned {
       #  inherit inputs;
       #  system = "x86_64-linux";
