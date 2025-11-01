@@ -21,6 +21,9 @@
       url = "github:sodiboo/niri-flake";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    # Affinity suite for NixOS
+    affinity-nix.url = "github:mrshmllow/affinity-nix";
   };
 
   outputs = {
@@ -30,6 +33,7 @@
     home-manager,
     dankMaterialShell,
     niri,
+    affinity-nix,
     ...
   } @ inputs: let
     inherit (self) outputs;

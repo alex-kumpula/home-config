@@ -1,5 +1,6 @@
 {
   imports = [
+    ./affinity.nix
     ./android-studio.nix
     ./bash
     ./beets.nix
@@ -27,7 +28,7 @@
     ./protonplus.nix
     # ./python.nix
     ./rclone.nix
-    # ./renpy.nix
+    # ./renpy.nix # Was causing an insecure package error
     ./rustup.nix
     # ./steam.nix
     ./transmission.nix
