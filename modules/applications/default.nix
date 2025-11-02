@@ -1,6 +1,6 @@
 {
   imports = [
-    ./affinity.nix
+    # ./affinity.nix
     ./android-studio.nix
     ./bash
     ./beets.nix
