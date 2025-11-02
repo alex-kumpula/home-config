@@ -85,7 +85,7 @@
   in {
     # Your custom packages and modifications, exported as overlays
     overlays = import ./overlays {inherit inputs;};
-    Home
+
     # Reusable home-manager modules you might want to export
     # These are usually stuff you would upstream into home-manager
     homeManagerModules = import ./modules;
@@ -100,6 +100,9 @@
         modules = [
           # > Our main home-manager configuration file <
           ./homes/alex/home.nix
+          {
+            home.packages = [affinity-nix.packages.x86_64-linux.v3];
+          }
         ];
       };
     };
