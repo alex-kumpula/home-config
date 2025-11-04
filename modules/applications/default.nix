@@ -26,6 +26,7 @@
     ./obs-studio.nix
     ./obsidian.nix
     ./picard.nix
+    ./pinta.nix
     ./protonplus.nix
     # ./python.nix
     ./rclone.nix
