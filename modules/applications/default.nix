@@ -10,6 +10,7 @@
     ./davinci-resolve.nix
     ./discord.nix
     ./dotnet-sdk.nix
+    ./ffmpeg.nix
     ./firefox.nix
     ./gammaray.nix
     ./ghostty
