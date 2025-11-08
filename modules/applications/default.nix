@@ -2,6 +2,7 @@
   imports = [
     # ./affinity.nix
     ./android-studio.nix
+    ./android-tools.nix
     ./bash
     ./beets.nix
     ./blueman.nix # Bluetooth
