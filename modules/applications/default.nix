@@ -20,6 +20,7 @@
     ./git.nix
     ./github-desktop.nix
     ./godot.nix
+    ./helvum.nix
     ./google-chrome
     # ./input-remapper.nix
     # ./keymapper.nix
