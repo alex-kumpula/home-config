@@ -24,6 +24,7 @@
     ./google-chrome
     # ./input-remapper.nix
     # ./keymapper.nix
+    ./krita.nix
     ./lazygit.nix
     ./lutris.nix
     ./obs-studio.nix
