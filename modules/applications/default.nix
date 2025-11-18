@@ -11,6 +11,7 @@
     ./davinci-resolve.nix
     ./discord.nix
     ./dotnet-sdk.nix
+    ./easyeffects.nix
     ./ffmpeg.nix
     ./firefox.nix
     ./gammaray.nix
