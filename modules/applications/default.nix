@@ -7,6 +7,7 @@
     ./beets.nix
     ./blueman.nix # Bluetooth
     ./bottles.nix
+    ./btop.nix
     ./clonehero.nix
     ./davinci-resolve.nix
     ./discord.nix
