@@ -12,6 +12,7 @@
     ./davinci-resolve.nix
     ./discord.nix
     ./dotnet-sdk.nix
+    ./dust.nix
     ./easyeffects.nix
     ./ffmpeg.nix
     ./firefox.nix
