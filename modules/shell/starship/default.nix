@@ -6,7 +6,7 @@
   };
 
   programs.starship.settings = {
-    add_newline = false;
+    add_newline = true;
     format = "$shlvl$shell$username$hostname$nix_shell$git_branch$git_commit$git_state$git_status$directory$jobs$cmd_duration$character";
 
     shlvl = {
