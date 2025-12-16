@@ -5,7 +5,7 @@
     oh-my-zsh = {
       enable = true;
       theme = "agnoster";
-      plugins = [ "git" "z" "sudo" ];
+      plugins = [ "z" "sudo" ];
     };
   };
 }
