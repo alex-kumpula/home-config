@@ -32,7 +32,7 @@
 
     hostname = {
       ssh_only = false;
-      format = "[$hostname]($style):";
+      format = "[$hostname]($style) ";
       style = "bright-white bold";
     };
   };
