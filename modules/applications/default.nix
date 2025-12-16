@@ -38,7 +38,7 @@
     # ./python.nix
     ./rclone.nix
     # ./renpy.nix # Was causing an insecure package error
-    ./rustup.nix
+    # ./rustup.nix
     ./shortwave.nix
     # ./steam.nix
     ./transmission.nix
