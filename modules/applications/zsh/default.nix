@@ -8,4 +8,11 @@
       plugins = [ "git" "z" "sudo" ];
     };
   };
+
+  programs.starship = {
+    enable = true;
+    promptInit = ''
+      eval "$(starship init zsh)"
+    '';
+  };
 }
