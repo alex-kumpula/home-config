@@ -11,8 +11,5 @@
 
   programs.starship = {
     enable = true;
-    promptInit = ''
-      eval "$(starship init zsh)"
-    '';
   };
 }
