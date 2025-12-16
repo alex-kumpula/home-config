@@ -8,8 +8,4 @@
       plugins = [ "git" "z" "sudo" ];
     };
   };
-
-  programs.starship = {
-    enable = true;
-  };
 }

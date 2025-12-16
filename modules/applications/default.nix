@@ -51,6 +51,5 @@
     ./yt-dlp.nix
     ./wl-color-picker.nix
     ./zoom.nix
-    ./zsh
   ];
 }

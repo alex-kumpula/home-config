@@ -5,4 +5,5 @@
   dependencies = import ./dependencies;
   scripts = import ./scripts;
   bootstrap = import ./bootstrap;
+  shell = import ./shell;
 }
