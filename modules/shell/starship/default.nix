@@ -25,6 +25,7 @@
     
     username = {
       show_always = true;
+      format = "[$user]($style)@";
       style_user = "bright-white bold";
       style_root = "bright-red bold";
     };
