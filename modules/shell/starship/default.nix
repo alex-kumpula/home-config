@@ -29,5 +29,11 @@
       style_user = "bright-white bold";
       style_root = "bright-red bold";
     };
+
+    hostname = {
+      ssh_only = false;
+      format = "[$hostname]($style):";
+      style = "bright-white bold";
+    };
   };
 }
