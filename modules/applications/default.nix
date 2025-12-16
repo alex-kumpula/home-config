@@ -30,6 +30,7 @@
     ./krita.nix
     ./lazygit.nix
     ./lutris.nix
+    ./nix-tree.nix
     ./obs-studio.nix
     ./obsidian.nix
     ./picard.nix
