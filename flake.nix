@@ -24,6 +24,11 @@
 
     # Affinity suite for NixOS
     affinity-nix.url = "github:mrshmllow/affinity-nix";
+
+    nixvim = {
+      url = "github:nix-community/nixvim";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = {
