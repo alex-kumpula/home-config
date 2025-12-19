@@ -39,6 +39,7 @@
     dankMaterialShell,
     niri,
     affinity-nix,
+    nixvim,
     ...
   } @ inputs: let
     inherit (self) outputs;
