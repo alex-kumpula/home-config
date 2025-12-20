@@ -31,6 +31,7 @@
     ./lazygit.nix
     ./lutris.nix
     ./nix-tree.nix
+    ./nixd.nix
     ./obs-studio.nix
     ./obsidian.nix
     ./picard.nix
