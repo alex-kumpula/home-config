@@ -48,6 +48,7 @@
     ./tauon.nix
     ./tor.nix
     ./unityhub.nix
+    ./virt-viewer.nix
     ./vscode-fsh.nix
     ./yazi.nix
     ./yt-dlp.nix
