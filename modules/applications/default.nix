@@ -15,6 +15,7 @@
     ./dust.nix
     ./easyeffects.nix
     ./ffmpeg.nix
+    ./filezilla.nix
     ./firefox.nix
     ./gammaray.nix
     ./ghostty
