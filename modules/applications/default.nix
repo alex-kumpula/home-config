@@ -37,6 +37,7 @@
     ./obsidian.nix
     ./picard.nix
     ./pinta.nix
+    ./prism.nix
     ./protonplus.nix
     # ./python.nix
     ./rclone.nix
