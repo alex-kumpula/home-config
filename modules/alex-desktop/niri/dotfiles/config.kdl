@@ -451,6 +451,8 @@ binds {
     // shows a list of important hotkeys.
     Mod+Shift+Slash { show-hotkey-overlay; }
 
+    Alt_R { spawn "xdotool" "key" "Alt_R" }
+
     // Suggested binds for running programs: terminal, app launcher, screen locker.
     Mod+T hotkey-overlay-title="Open a Terminal: ghostty" { spawn "ghostty"; }
     Mod+Alt+T hotkey-overlay-title="Open a Terminal: cool-retro-term" { spawn "cool-retro-term"; }
