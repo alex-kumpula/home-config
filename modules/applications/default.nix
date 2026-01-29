@@ -52,6 +52,7 @@
     ./unityhub.nix
     ./virt-viewer.nix
     ./vscode-fsh.nix
+    ./xdotool.nix
     ./yazi.nix
     ./yt-dlp.nix
     ./wl-color-picker.nix
