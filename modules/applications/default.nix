@@ -25,6 +25,7 @@
     ./github-desktop.nix
     ./godot.nix
     ./helvum.nix
+    ./heroku.nix
     ./google-chrome
     # ./input-remapper.nix
     # ./keymapper.nix
