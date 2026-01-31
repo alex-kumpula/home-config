@@ -5,6 +5,7 @@
     ./android-tools.nix
     ./bash
     ./beets.nix
+    ./blender.nix
     ./blueman.nix # Bluetooth
     ./bottles.nix
     ./btop.nix
